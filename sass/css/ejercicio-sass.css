@@ -23,6 +23,28 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+body .perfil {
+  background-color: #FFFFFF;
+  color: #8841DA;
+}
+
+body .perfil__titulo, body .perfil__minibio h3, .perfil__minibio body h3 {
+  color: rgba(63, 87, 154, 0.5);
+}
+
+body .perfil__boton {
+  color: #FFFFFF;
+  background-color: #333333;
+}
+
+body .articulos {
+  background-color: #333333;
+}
+
+body .articulo {
+  color: #FFFFFF;
+}
+
 main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +54,7 @@ main {
 }
 
 .perfil {
-  width: 50%;
+  width: 60%;
   padding-top: 50px;
   color: #FFFFFF;
   background-color: #8841DA;
